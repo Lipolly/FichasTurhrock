@@ -77,7 +77,7 @@ def documento():
             texto_Des = magia[10]
             # Adiciona uma seção e uma subseção
             with doc.create(Section(texto_Tit)):
-                doc.append("Elemento: " + texto_Ele if texto_Ele is not None else "" + "\n" + "Custo: " + texto_Cus if texto_Cus is not None else "" + "\n" + "Tempo de Cast: " + texto_Tem if texto_Tem is not None else "" + "\n" + "Alcance: " + texto_Alc if texto_Alc is not None else "" + "\n" + "Quantidade de alvos atingidos: " + texto_Alv if texto_Alv is not None else "" + "\n" + "Duração da magia: " + texto_Dur if texto_Dur is not None else "" + "\n" + "Teste de resistencia: " + texto_Res if texto_Res is not None else "" + "\n" + "Melhoria: " + texto_Mel if texto_Mel is not None else "" + "\n" + "Descrição: " + texto_Des if texto_Des is not None else "" + "\\")
+                doc.append("Elemento: " + texto_Ele + "\n" + "Custo: " + texto_Cus + "\n" + "Tempo de Cast: " + texto_Tem + "\n" + "Alcance: " + texto_Alc + "\n" + "Quantidade de alvos atingidos: " + texto_Alv + "\n" + "Duração da magia: " + texto_Dur + "\n" + "Teste de resistencia: " + texto_Res + "\n" + "Melhoria: " + texto_Mel + "\n" + "Descrição: " + texto_Des + "\\")
 
         # Adiciona um comando LaTeX personalizado
         doc.append(Command('vspace', '1cm'))

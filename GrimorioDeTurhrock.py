@@ -27,13 +27,16 @@ cursor = conn.cursor()
 for lista in lists:
     cards = lista.list_cards()
     for card in cards:
+        # Use o nome do cartão como valor para a coluna 'nome'
+        nome = card.name
+
         # Divida a descrição em linhas
         description_lines = card.desc.splitlines() if card.desc else []
 
-        # Crie uma tupla com os valores para cada coluna
-        values = (card.name,) + tuple(description_lines) + (None,) * (9 - len(description_lines))
+        # Crie uma tupla com os valores para cada coluna, substituindo None por ""
+        values = tuple(val if val is not None else "" for val in [nome] + description_lines) + ("",) * (9 - len(description_lines))
 
-        # Remova o valor extra da tupla
+        # Ajuste a tupla para ter 10 valores
         values = values[:10]
 
         # Insira a tupla na tabela

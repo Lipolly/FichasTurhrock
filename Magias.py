@@ -1,5 +1,6 @@
 import sqlite3
 import os
+from dotenv import load_dotenv
 from pylatex import Document, Section, Subsection, Command
 
 # Conecta ao banco de dados
@@ -8,16 +9,16 @@ conn = sqlite3.connect('magias.db')
 # Cria a tabela "magias" se ela ainda não existir
 conn.execute('''CREATE TABLE IF NOT EXISTS magias
                 (ID INTEGER PRIMARY KEY AUTOINCREMENT,
-                 nome TEXT NOT NULL,
-                 elemento TEXT NOT NULL,
-                 custo TEXT NOT NULL,
-                 tempo TEXT NOT NULL,
-                 alcance TEXT NOT NULL,
-                 alvo TEXT NOT NULL,
-                 duracao TEXT NOT NULL,
-                 resistencia TEXT NOT NULL,
-                 melhoria TEXT NOT NULL,
-                 descricao TEXT NOT NULL);''')
+                 nome TEXT,
+                 elemento TEXT,
+                 custo TEXT,
+                 tempo TEXT,
+                 alcance TEXT,
+                 alvo TEXT,
+                 duracao TEXT,
+                 resistencia TEXT,
+                 melhoria TEXT,
+                 descricao TEXT);''')
 
 # cria cursor
 cursor = conn.cursor()
@@ -76,7 +77,7 @@ def documento():
             texto_Des = magia[10]
             # Adiciona uma seção e uma subseção
             with doc.create(Section(texto_Tit)):
-                doc.append("Elemento: " + texto_Ele + "\n" + "Custo: " + texto_Cus + "\n" + "Tempo de Cast: " + texto_Tem + "\n" + "Alcance: " + texto_Alc + "\n" + "Quantidade de alvos atingidos: " + texto_Alv + "\n" + "Duração da magia: " + texto_Dur + "\n" + "Teste de resistencia: " + texto_Res + "\n" + "Melhoria: " + texto_Mel + "\n" + "Descrição: " + texto_Des + "\n")
+                doc.append("Elemento: " + texto_Ele if texto_Ele is not None else "" + "\n" + "Custo: " + texto_Cus if texto_Cus is not None else "" + "\n" + "Tempo de Cast: " + texto_Tem if texto_Tem is not None else "" + "\n" + "Alcance: " + texto_Alc if texto_Alc is not None else "" + "\n" + "Quantidade de alvos atingidos: " + texto_Alv if texto_Alv is not None else "" + "\n" + "Duração da magia: " + texto_Dur if texto_Dur is not None else "" + "\n" + "Teste de resistencia: " + texto_Res if texto_Res is not None else "" + "\n" + "Melhoria: " + texto_Mel if texto_Mel is not None else "" + "\n" + "Descrição: " + texto_Des if texto_Des is not None else "" + "\\")
 
         # Adiciona um comando LaTeX personalizado
         doc.append(Command('vspace', '1cm'))

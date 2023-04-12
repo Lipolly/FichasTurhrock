@@ -1,0 +1,871 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.5)  12 APR 2023 09:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Grimorio.tex
+(./Grimorio.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 10
+.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box50
+)
+No file Grimorio.aux.
+\openout1 = `Grimorio.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--62
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 66--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--101
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 105--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--140
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 144--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--179
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 183--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--218
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 222--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--257
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 261--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--296
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 300--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--335
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 339--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--374
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 378--387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--413
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 417--426
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--452
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 456--465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--478
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--491
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 495--504
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 534--543
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--569
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 573--582
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--595
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--608
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 612--621
+
+ []
+
+
+Overfull \hbox (7.99893pt too wide) in paragraph at lines 625--634
+\T1/lmr/m/n/10 Melhoria - **** Seus ol-hos tornam-se ligeira-mente lu-mi-nosos,
+ suas pupi-las tornam-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--647
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 651--660
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--686
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 690--699
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 703--712
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--725
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 729--738
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 742--751
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--764
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 768--777
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--790
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--803
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 807--816
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 820--829
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 833--842
+
+ []
+
+[21]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
+54.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 846--855
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 859--868
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 872--881
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 885--894
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--907
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 911--920
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--933
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 937--946
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 950--959
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 963--972
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 976--985
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 989--998
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1011
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1024
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1037
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1050
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1063
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1076
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1089
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1128
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1132--1141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1167
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1184--1193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1206
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1245
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1249--1258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1262--1271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1275--1284
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1314--1323
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1327--1336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1340--1349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1362
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1388
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1392--1401
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1418--1427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1440
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1444--1453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1466
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1479
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1483--1492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1505
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1509--1518
+
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 1522--1531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1544
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1548--1557
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1570
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1574--1583
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1596
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1600--1609
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1639--1648
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 1652--1661
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1665--1674
+
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 1678--1687
+
+ []
+
+
+Overfull \hbox (0.22232pt too wide) in paragraph at lines 1691--1700
+\T1/lmr/m/n/10 Melhoria - Nível 15: Con-segue der-reter criat-uras sem con-sciê
+n-cia transformando-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1691--1700
+
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 1704--1713
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1726
+
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 1730--1739
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1752
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1756--1765
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 1769--1778
+
+ []
+
+
+Overfull \hbox (6.22131pt too wide) in paragraph at lines 1782--1791
+\T1/lmr/m/n/10 Duração da ma-gia - Nível 10: A sim-biose se joga no alvo cau-sa
+ndo d6+FOR+CON
+ []
+
+
+Overfull \hbox (16.24973pt too wide) in paragraph at lines 1782--1791
+\T1/lmr/m/n/10 Teste de re-sisten-cia - Nível 15: A sim-biose se joga no alvo c
+au-sando 2d6+FOR+CON
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1782--1791
+
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1795--1804
+
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1808--1817
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1821--1830
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1834--1843
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1847--1856
+
+ []
+
+[49] 
+AED: lastpage setting LastPage
+[50] (./Grimorio.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 989 strings out of 478287
+ 17463 string characters out of 5849290
+ 307921 words of memory out of 5000000
+ 19241 multiletter control sequences out of 15000+600000
+ 479374 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,5n,39p,646b,160s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr10.pfb>
+Output written on Grimorio.pdf (50 pages, 125501 bytes).
+PDF statistics:
+ 182 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

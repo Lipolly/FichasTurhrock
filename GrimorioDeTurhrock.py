@@ -5,7 +5,8 @@ import os
 import sqlite3
 
 # carrega as variáveis de ambiente do arquivo .env
-load_dotenv('turhrock.env')
+load_dotenv('/home/ricardo_piero/Documentos/PROJETOS/TURHROCK/Fichas/bin/turhrock.env')
+
 
 # Crie um cliente do Trello
 client = TrelloClient(
@@ -22,7 +23,7 @@ def grimorioTotal():
     lists = board.all_lists()
 
     # Conecte-se ao banco de dados SQLite
-    conn = sqlite3.connect('magias.db')
+    conn = sqlite3.connect('bin/magias.db')
     cursor = conn.cursor()
 
     # Para cada lista, obtenha todos os cartões e insira suas informações na tabela

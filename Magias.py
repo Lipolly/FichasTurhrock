@@ -1,11 +1,10 @@
 import sqlite3
 import os
-from dotenv import load_dotenv
 from pylatex import Document, Section, Subsection, Command
-from GrimorioDeTurhrock import grimorioTotal
+from init import initGrimorio
 
 # Conecta ao banco de dados
-conn = sqlite3.connect('magias.db')
+conn = sqlite3.connect('bin/magias.db')
 
 # Cria a tabela "magias" se ela ainda não existir
 conn.execute('''CREATE TABLE IF NOT EXISTS magias
@@ -21,7 +20,7 @@ conn.execute('''CREATE TABLE IF NOT EXISTS magias
                  melhoria TEXT,
                  descricao TEXT);''')
 
-grimorioTotal()
+initGrimorio()
 
 # cria cursor
 cursor = conn.cursor()
@@ -81,12 +80,19 @@ def documento():
             # Adiciona uma seção e uma subseção
             with doc.create(Section(texto_Tit)):
                 doc.append("Elemento " + texto_Ele + "\n" + "Custo " + texto_Cus + "\n" + "Tempo de Cast " + texto_Tem + "\n" + "Alcance " + texto_Alc + "\n" + "Quantidade de alvos atingidos " + texto_Alv + "\n" + "Duração da magia " + texto_Dur + "\n" + "Teste de resistencia " + texto_Res + "\n" + "Melhoria " + texto_Mel + "\n" + "Descrição " + texto_Des + '\n')
+        
+        # Gera o arquivo .tex dentro da pasta arquivos
+        doc.generate_pdf(os.path.join('bin', 'Grimorio'), clean_tex=False)
+        
+        # Compila o arquivo .tex para gerar o PDF
+        os.chdir('bin')
+        os.system('pdflatex Grimorio.tex')
 
         # Adiciona um comando LaTeX personalizado
-        doc.append(Command('vspace', '1cm'))
+        #doc.append(Command('vspace', '1cm'))
 
         # Gera o PDF
-        doc.generate_pdf('Grimorio', clean_tex=False)
+        #doc.generate_pdf('Grimorio', clean_tex=False)
 
 # printar dados
 def printMagia(magias):

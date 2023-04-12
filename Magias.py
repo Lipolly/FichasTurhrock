@@ -2,6 +2,7 @@ import sqlite3
 import os
 from dotenv import load_dotenv
 from pylatex import Document, Section, Subsection, Command
+from GrimorioDeTurhrock import grimorioTotal
 
 # Conecta ao banco de dados
 conn = sqlite3.connect('magias.db')
@@ -19,6 +20,8 @@ conn.execute('''CREATE TABLE IF NOT EXISTS magias
                  resistencia TEXT,
                  melhoria TEXT,
                  descricao TEXT);''')
+
+grimorioTotal()
 
 # cria cursor
 cursor = conn.cursor()
@@ -77,7 +80,7 @@ def documento():
             texto_Des = magia[10]
             # Adiciona uma seção e uma subseção
             with doc.create(Section(texto_Tit)):
-                doc.append("Elemento: " + texto_Ele + "\n" + "Custo: " + texto_Cus + "\n" + "Tempo de Cast: " + texto_Tem + "\n" + "Alcance: " + texto_Alc + "\n" + "Quantidade de alvos atingidos: " + texto_Alv + "\n" + "Duração da magia: " + texto_Dur + "\n" + "Teste de resistencia: " + texto_Res + "\n" + "Melhoria: " + texto_Mel + "\n" + "Descrição: " + texto_Des + "\\")
+                doc.append("Elemento " + texto_Ele + "\n" + "Custo " + texto_Cus + "\n" + "Tempo de Cast " + texto_Tem + "\n" + "Alcance " + texto_Alc + "\n" + "Quantidade de alvos atingidos " + texto_Alv + "\n" + "Duração da magia " + texto_Dur + "\n" + "Teste de resistencia " + texto_Res + "\n" + "Melhoria " + texto_Mel + "\n" + "Descrição " + texto_Des + '\n')
 
         # Adiciona um comando LaTeX personalizado
         doc.append(Command('vspace', '1cm'))

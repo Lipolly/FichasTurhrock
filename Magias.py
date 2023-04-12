@@ -1,5 +1,6 @@
 import sqlite3
 import os
+import shutil
 from pylatex import Document, Section, Subsection, Command
 from init import initGrimorio
 
@@ -87,12 +88,7 @@ def documento():
         # Compila o arquivo .tex para gerar o PDF
         os.chdir('bin')
         os.system('pdflatex Grimorio.tex')
-
-        # Adiciona um comando LaTeX personalizado
-        #doc.append(Command('vspace', '1cm'))
-
-        # Gera o PDF
-        #doc.generate_pdf('Grimorio', clean_tex=False)
+        shutil.move('Grimorio.pdf', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Grimorio.pdf'))
 
 # printar dados
 def printMagia(magias):

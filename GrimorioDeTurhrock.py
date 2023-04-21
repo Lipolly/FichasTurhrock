@@ -20,12 +20,15 @@ board = client.get_board(id_acess)
 
 # adiciona os dados do trello na db
 def grimorioTotal():
-    lists = board.all_lists()
+    magia_inicial = board.get_list('63f2c1f51747292eb0a8d350')
+    magia_primeiro = board.get_list('63f2c207bb3985fa7cfb89aa')
+    magia_segundo = board.get_list('6414cee970fc506e434c0365')
+    magia_terceiro = board.get_list('6414d071ac7895ccdd803322')
 
     conn = sqlite3.connect('bin/magias.db')
     cursor = conn.cursor()
 
-    for lista in lists:
+    for lista in [magia_inicial, magia_primeiro, magia_segundo, magia_terceiro]:
         cards = lista.list_cards()
         for card in cards:
             nome = card.name

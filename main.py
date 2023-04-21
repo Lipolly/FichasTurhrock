@@ -50,7 +50,7 @@ def add_magia():
 
 # método criar documento
 def documento():
-    cursor.execute("SELECT * FROM magias")
+    cursor.execute("SELECT * FROM magias ORDER BY nome ASC")
     magias = cursor.fetchall()
 
     if not magias:
@@ -89,6 +89,7 @@ def documento():
         os.chdir('bin')
         os.system('pdflatex Grimorio.tex')
         shutil.move('Grimorio.pdf', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Grimorio.pdf'))
+        os.chdir('..')
 
 # printar dados
 def printMagia(magias):

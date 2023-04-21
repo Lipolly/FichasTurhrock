@@ -1,10 +1,10 @@
 ### Documentos Turhrock
 Este é um programa simples para criar e gerenciar um banco de dados de magias para um jogo de RPG.
 
-#Funcionalidades
+Funcionalidades
 O programa permite a adição de novas magias e sua posterior impressão em um documento PDF formatado, bem como a busca por magias específicas no banco de dados.
 
-#Instalação
+Instalação
 Antes de executar o programa, certifique-se de ter o Python 3 e os seguintes pacotes instalados:
 
     sqlite3
@@ -12,15 +12,15 @@ Antes de executar o programa, certifique-se de ter o Python 3 e os seguintes pac
 
 Para instalar o pylatex, você pode utilizar o seguinte comando:
 
-__pip install pylatex__
+  __pip install pylatex__
 
-#Como usar
+Como usar
 Ao executar o programa, você terá acesso a um menu com as seguintes opções:
 
-    __Adicionar nova magia__
-    __Imprimir todas as magias em um documento PDF__
-    __Procurar magia__
-    __Sair__
+    Adicionar nova magia
+    Imprimir todas as magias em um documento PDF
+    Procurar magia
+    Sair
 
 Para adicionar uma nova magia, selecione a opção 1 no menu e insira as informações solicitadas. Ao final, a nova magia será adicionada ao banco de dados.
 
